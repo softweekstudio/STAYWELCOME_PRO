@@ -1,0 +1,19 @@
+QUALITY CHECKS — STAYWELCOME PRO v2.0
+
+Completed in this build:
+- HTML document and JavaScript syntax checked with Node.js.
+- ZIP archive structure checked after packaging.
+- All nine chapter groups and 34 editable content fields are present.
+- Language selector contains English, Italian, German, French and Spanish.
+- Edit mode, localStorage persistence, JSON backup export/import and print stylesheet are implemented.
+- Text inserted by the user is HTML-escaped before display.
+- No external JavaScript library, subscription, analytics script or remote font is required.
+
+Known limitations / buyer responsibilities:
+- Browser localStorage is device- and browser-specific; it is not cloud synchronization.
+- The HTML file must be hosted by the buyer to create a public guest URL.
+- Custom property content is not automatically translated.
+- Optional QR-code generation is available in the Safety & contacts chapter. It requires an internet connection and sends the public HTTPS URL to the third-party QR service api.qrserver.com. Do not enter private access credentials or personal data. The QR feature is not required for the guide to work.
+- Print-to-PDF is performed by the browser's print dialog; page breaks and output can vary slightly by browser.
+- This package has not been legally reviewed and does not certify property safety or compliance.
+- Manual functional verification in every browser/device combination has not been completed. The syntax and archive checks do not constitute full cross-device testing.
